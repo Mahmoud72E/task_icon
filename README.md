@@ -65,13 +65,13 @@ The project provides the following API endpoints:
 
 - POST /api/logout
 
-  -- Log out the user.
-  -- Notes: add '{token}' with the actual token obtained after successful login.
+  - Log out the user.
+  - Notes: add '{token}' with the actual token obtained after successful login.
 
 
 - POST /api/logout-other-tokens
 
-  -- Log out other tokens/devices for the authenticated user.
-  -- Notes: add '{token}' with the actual token obtained after successful login.
+  - Log out other tokens/devices for the authenticated user.
+  - Notes: add '{token}' with the actual token obtained after successful login.
 
 Make sure to include the necessary authentication headers when making API requests.
