@@ -21,7 +21,7 @@ Follow these steps to set up the project:
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your/repo.git
+   git clone https://github.com/Mahmoud72E/task_icon.git
    ```
 
 2. Install dependencies using Composer:
@@ -50,26 +50,28 @@ Follow these steps to set up the project:
    php artisan serve
    ```
 
-7. Open your web browser and visit 'http://localhost:8000' to access the application.
+7. Open your web browser and visit 'http://127.0.0.1:8000/' to access the application.
 
 ## API Endpoints
 
 The project provides the following API endpoints:
 
-- ```shell
+```shell
 POST /api/login
 ```
     - Log in the user. Requires 'email' and 'password' parameters.
     - Notes: Replace the email with 'mahmoud@icon-creations.com' and password with 'password'.
 
-- ```shell
+```shell
 POST /api/logout
-``` Log out the user.
+```
+:Log out the user.
   - Notes: add '{token}' with the actual token obtained after successful login.
 
-- ```shell
+ ```shell
 POST /api/logout-other-tokens
-```: Log out other tokens/devices for the authenticated user.
+```
+: Log out other tokens/devices for the authenticated user.
   - Notes: add '{token}' with the actual token obtained after successful login.
 
 Make sure to include the necessary authentication headers when making API requests.
